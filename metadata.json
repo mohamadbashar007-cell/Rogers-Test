@@ -1,0 +1,6 @@
+{
+  "name": "مقياس روجرز للذكاءات المتعددة",
+  "description": "مقياس روجرز للذكاءات المتعددة تحت إشراف مؤسسة الإمام أحمد ابن حنبل ومن إعداد الأستاذة عبير قويدر.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
