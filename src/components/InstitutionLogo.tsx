@@ -66,7 +66,7 @@ export function InstitutionLogoLarge({ className = "" }: { className?: string })
   return (
     <div className={`relative p-2 bg-white border border-slate-200 rounded-3xl overflow-hidden shadow-sm max-w-sm sm:max-w-md w-full flex justify-center items-center ${className}`}>
       <img 
-        src="/logo.png" 
+        src={`${import.meta.env.BASE_URL}logo.png`} 
         alt="مؤسسة الإمام أحمد بن حنبل" 
         referrerPolicy="no-referrer"
         className="max-h-48 w-full object-contain rounded-2xl"
