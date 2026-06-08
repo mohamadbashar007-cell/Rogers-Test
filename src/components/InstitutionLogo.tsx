@@ -25,7 +25,7 @@ export function InstitutionLogo({ className = "" }: { className?: string }) {
 
   return (
     <img 
-      src="/logo.png" 
+      src={`${import.meta.env.BASE_URL}logo.png`} 
       alt="مؤسسة الإمام أحمد بن حنبل" 
       referrerPolicy="no-referrer"
       className={`h-11 w-auto object-contain shrink-0 rounded-md ${className}`}
