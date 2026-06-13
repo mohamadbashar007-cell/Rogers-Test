@@ -101,7 +101,7 @@ export const PrintableReport: React.FC<PrintableReportProps> = ({
       <div className="grid grid-cols-2 gap-4 mb-6 border border-slate-200 rounded-lg p-3 bg-slate-50 text-xs">
         <div>
           <p className="mb-1"><span className="font-bold text-slate-700">اسم المرشح الكامل:</span> <span className="text-sm font-medium">{username || "غير مسجل"}</span></p>
-          <p><span className="font-bold text-slate-700">الصف الدراسي / المدرسة:</span> <span className="text-sm font-medium">{gradeOrSchool || "إدارة التقييم العام"}</span></p>
+          <p><span className="font-bold text-slate-700">اسم نادي الطفل:</span> <span className="text-sm font-medium">{gradeOrSchool || "إدارة التقييم العام"}</span></p>
         </div>
         <div className="text-left border-r border-slate-200 pr-4">
           <p className="mb-1"><span className="font-bold text-slate-700">النمط المهيمن الأساسي:</span> <span className="text-sm font-bold text-slate-900">{sortedIntelligences[0]?.name}</span></p>
