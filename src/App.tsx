@@ -378,11 +378,11 @@ export default function App() {
                 <div className="space-y-1.5 text-right">
                   <label className="text-xs font-extrabold text-slate-700 flex items-center gap-1">
                     <School className="w-3.5 h-3.5 text-emerald-600" />
-                    الصف الدراسي / اسم المدرسة / المنظمة:
+                   اسم نادي الطفل:
                   </label>
                   <input
                     type="text"
-                    placeholder="مثال: مدرسة الملك فيصل الثانوية / إدارة التعليم"
+                    placeholder="مثال: نادي كلمة لرعاية الموهوبين"
                     value={gradeOrSchool}
                     onChange={(e) => setGradeOrSchool(e.target.value)}
                     className="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 leading-tight focus:bg-white focus:outline-none focus:border-emerald-600 focus:ring-1 focus:ring-emerald-600 transition-all text-sm font-medium"
