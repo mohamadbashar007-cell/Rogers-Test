@@ -365,7 +365,7 @@ export default function App() {
                   <input
                     type="text"
                     required
-                    placeholder="مثال: عبد الرحمن بن علي آل سعود"
+                    placeholder="مثال: عبد الرحمن علي  "
                     value={username}
                     onChange={(e) => {
                       setUsername(e.target.value);
